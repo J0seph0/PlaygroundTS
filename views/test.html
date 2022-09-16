@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>Read Text File</title>
+</head>
+  
+<body>
+    <input type="file" name="inputfile" id="inputfile">
+
+    <button id="submitButton" >Submit</button>
+
+    <div id="like_button_container"></div>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="../scripts/like_button.js"></script> 
+
+    <br>
+
+    <textarea id="ipText" style="width: 727px; height: 773px;"></textarea>
+
+    <pre id="output"></pre>
+
+
+
+    <script src="../scripts/fileReader.js"></script>
+</body>
+  
+</html>
